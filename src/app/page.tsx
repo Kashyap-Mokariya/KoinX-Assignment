@@ -276,7 +276,7 @@ export default function Home() {
                     <br />
                     <span className="text-xs font-normal text-gray-400">Current Market Rate</span>
                   </th>
-                  <th className="px-4 py-4 text-left">Total Current Value</th>
+                  <th className="px-4 py-4 text-left">Current Value</th>
                   <th
                     className="px-4 py-4 text-left cursor-pointer hover:text-blue-400 transition-colors"
                     onClick={() => handleSort('stcg')}
