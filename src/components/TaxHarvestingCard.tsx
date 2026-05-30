@@ -1,5 +1,4 @@
 import { Zap } from 'lucide-react'
-import { formatCurrency, formatFullCurrency } from '@/utils/formatCurrency'
 import { CurrencyValue } from './CurrencyValue'
 
 interface CapitalGains {
@@ -131,9 +130,9 @@ export function TaxHarvestingCard({
         </div>
       </div>
 
-      {savings !== null && (
+      {savings != null && (
         <div className="bg-blue-600/60 rounded px-3 py-2 flex items-center gap-2">
-          <Zap className="w-4 h-4 text-yellow-300 flex-shrink-0" />
+          <Zap className="w-4 h-4 text-yellow-300 shrink-0" />
           <span className="text-white text-sm">
             You are going to save upto <CurrencyValue value={savings} />
           </span>
